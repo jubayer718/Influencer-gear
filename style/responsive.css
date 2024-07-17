@@ -2,7 +2,15 @@
   .nav-content{
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 30px;
+
+  }
+  .nav-content h3{
+    font-size: 1.5rem;
+    margin: 5px 15px;
+  }
+  .banner-content h3{
+    font-size: 1.8rem;
   }
  .nav-menu > li{
   display: none;
@@ -26,6 +34,7 @@
 .sponsors{
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+ 
  
 }
 
