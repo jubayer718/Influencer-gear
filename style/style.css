@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+   font-family: "Poppins", sans-serif;
+}
+
+
+/* shared style */
+.dark-1{
+  color: #3A3A3A;
+}
+.display-flex{
+  display: flex;
+}
+/* nav bar styles here */
+
+.header-section{
+  max-width: 1200px;
+  height: 100px;
+ 
+  margin: 0 auto;
+}
+
+.nav-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu, .font-awesome{
+  display: flex;
+  gap: 30px;
+ 
+}
+.nav-content > h3{
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.nav-menu li{
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hambarger-menu{
+  display: none;
+}
+/* nav bar styles ends here */
+
+
+/* banner section starts hare */
+.banner{
+  max-width: 1200px;
+
+  margin: 0 auto;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.banner-content, .banner-img{
+  width: 40%;
+}
+.banner-img{
+  max-width: 440px;
+}
+.banner-img > img{
+  width: 100%;
+  border: 3px solid rgb(241, 228, 255);
+  border-radius: 50%;
+  background: url();
+}
+
+/* banner section ends hare */

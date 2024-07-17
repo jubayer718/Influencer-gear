@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+  .nav-content{
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+ .nav-menu > li{
+  display: none;
+ }
+.hambarger-menu{
+  display: block;
+  
+}
+.font-awesome{
+  display: block;
+}
+}
