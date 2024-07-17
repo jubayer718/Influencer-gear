@@ -52,18 +52,14 @@
 /* banner section starts hare */
 .banner{
   max-width: 1200px;
-
   margin: 0 auto;
-  border: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
   
 }
 
-.banner-content, .banner-img{
-  width: 40%;
-}
+
 .banner-img{
   max-width: 440px;
 }
@@ -73,5 +69,30 @@
   border-radius: 50%;
   background: url();
 }
+.banner-content{
+  max-width: 580px;
+}
 
+.banner-title{
+  color: rgb(58, 58, 58);
+font-size: 3rem;
+font-weight: 700;
+margin: 0;
+
+}
+.banner-description{
+  color: rgb(58, 58, 58);
+font-size: 1rem;
+font-weight: 600;
+}
+.banner-content button{
+  color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 700;
+border-radius: 20px;
+padding: 10px 20px;
+background: rgb(224, 44, 109);
+border: none;
+}
 /* banner section ends hare */

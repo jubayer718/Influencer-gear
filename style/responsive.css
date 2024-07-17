@@ -14,4 +14,17 @@
 .font-awesome{
   display: block;
 }
+.banner{
+ flex-direction: column;
+  flex-direction: column-reverse;
+}
+.banner-img > img{
+/* width: 100%; */
+}
+.banner-content{
+  /* width: 100%; */
+ text-align: center;
+}
+
+
 }
