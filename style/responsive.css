@@ -18,12 +18,15 @@
  flex-direction: column;
   flex-direction: column-reverse;
 }
-.banner-img > img{
-/* width: 100%; */
-}
+
 .banner-content{
-  /* width: 100%; */
+ 
  text-align: center;
+}
+.sponsors{
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+ 
 }
 
 

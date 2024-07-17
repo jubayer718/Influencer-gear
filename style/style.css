@@ -67,7 +67,9 @@
   width: 100%;
   border: 3px solid rgb(241, 228, 255);
   border-radius: 50%;
-  background: url();
+  background: url(../images/Circle\ design.svg);
+  background-position: center;
+ 
 }
 .banner-content{
   max-width: 580px;
@@ -96,3 +98,12 @@ background: rgb(224, 44, 109);
 border: none;
 }
 /* banner section ends hare */
+
+/* sponsors style here */
+.sponsors{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 100px;
+}
