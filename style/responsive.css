@@ -40,5 +40,10 @@
  
 }
 
+.popular-section-container{
+  grid-template-columns: 1fr;
+}
+
+
 
 }
