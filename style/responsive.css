@@ -43,7 +43,25 @@
 .popular-section-container{
   grid-template-columns: 1fr;
 }
+.featured-product, img{
+width: 100%;
+}
+.featured-product-container {
+  flex-direction: column;
+}
 
-
+.foot-container h3{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+}
+.foot-container p{
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  
+}
 
 }
